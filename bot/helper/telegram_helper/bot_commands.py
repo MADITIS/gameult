@@ -4,7 +4,7 @@ from bot import CMD_INDEX
 class _BotCommands:
     def __init__(self):
         self.StartCommand = f'start{CMD_INDEX}'
-        self.MirrorCommand = f'weeb{CMD_INDEX}'
+        self.MirrorCommand = f'gaym{CMD_INDEX}'
         self.UnzipMirrorCommand = f'unzipmirror{CMD_INDEX}'
         self.ZipMirrorCommand = f'zipmirror{CMD_INDEX}'
         self.CancelMirror = f'cancel{CMD_INDEX}'
@@ -22,7 +22,7 @@ class _BotCommands:
         self.StatsCommand = f'stats{CMD_INDEX}'
         self.HelpCommand = f'help{CMD_INDEX}'
         self.LogCommand = f'log{CMD_INDEX}'
-        self.CloneCommand = f'clone{CMD_INDEX}'
+        self.CloneCommand = f'game{CMD_INDEX}'
         self.CountCommand = f'count{CMD_INDEX}'
         self.WatchCommand = f'watch{CMD_INDEX}'
         self.ZipWatchCommand = f'zipwatch{CMD_INDEX}'
